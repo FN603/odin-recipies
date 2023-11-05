@@ -4,12 +4,17 @@ h1 {
 }
 div {
    align-items: center;
-   center-content: center;
    text-align: center;
 }
 h4 {
     font-size: 24px;
+    padding: 30px;
 }
 ul, ol {
     list-style-position: inside;
+}
+.directions {
+    border: 4px;
+    border-color: black;
+    
 }
