@@ -18,3 +18,15 @@ ul, ol {
     border-color: black;
     
 }
+.description {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.bigwiggle {
+    display: flex;
+    background: peachpuff;
+    border: 5px solid black;
+    flex-shrink: 10;
+    width: fit-content;
+    height: auto;
+}
