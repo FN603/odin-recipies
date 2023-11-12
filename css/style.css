@@ -24,9 +24,21 @@ ul, ol {
 }
 .bigwiggle {
     display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    width: fit-content;
+    margin: 100px;
+    flex: auto;
+}
+.bigwiggle div {
     background: peachpuff;
     border: 5px solid black;
-    flex-shrink: 10;
-    width: fit-content;
-    height: auto;
+    flex-shrink: 1;
+    flex: 1 1 auto;
+}
+.bigwiggle .wiggle2{
+    flex: auto
+}
+b {
+    font-size: 30px;
 }
